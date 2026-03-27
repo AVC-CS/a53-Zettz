@@ -7,7 +7,7 @@ int main()
     while(1) {
       cout << " Enter begin and end ";
       cin >> begin >> end;
-      if (begin < end)
+      if (begin <= end)
         break;
     }
 
